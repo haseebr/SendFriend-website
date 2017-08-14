@@ -1,0 +1,17 @@
+.navbar-brand {
+	padding: 0px;
+	
+}
+
+.navbar-brand>img {
+	padding: 5px;
+	max-height: 60px; 
+}
+
+.intro-heading>img{
+	max-height: 200px;
+}
+
+.vanish{
+	display:none;
+}
