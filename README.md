@@ -1,3 +1,3 @@
 # SendFriend-website
 
-[a link](http://danielwang.org/sendfriend/s/)
+Visit at http://danielwang.org/sendfriend/s/
