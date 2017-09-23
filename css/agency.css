@@ -62,7 +62,7 @@ body {
   -webkit-tap-highlight-color: #2A4494; }
   
 .bg-faded{
-	background-color: #e1e6ed !important;
+	background-color: rgba(225, 231, 244, 0.61) !important;
 }
   
 .logo{
@@ -104,7 +104,7 @@ body {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
-        color: #222222; }
+        color: #565555; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -130,17 +130,17 @@ body {
     }
     #mainNav.navbar-shrink {
       padding: 10px 0;
-      background-color: #5DA9E9; 
+      background-color: rgb(225, 231, 244); 
     }
       #mainNav.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-        padding: 6px 0;
+        font-size: 2em;
+        padding: 0px 0;
         margin: 8px 0;
     }
 }
 #heading{
 	/*background-image: url("../img/wallpaper.jpg");*/
-	background-color: #AFD7F9;
+	background-color: rgb(225, 231, 244);
 }
 
 header.masthead {
@@ -157,10 +157,11 @@ header.masthead {
     padding-top: 100px;
     padding-bottom: 50px; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 18px;
+      font-size: 25px;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-weight: bold;
+      font-family: 'Catamaran', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -174,10 +175,10 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 21px;
+      font-size: 25px;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Catamaran', 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
@@ -209,7 +210,7 @@ header.masthead {
 }
 
 section#contact {
-  background-color: #8DC2EF;
+
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
@@ -256,9 +257,13 @@ section#contact {
 	padding: 20px 0;
 }
 
+#sponsors{
+  background-color: rgba(225, 231, 244, 0.63);
+}
+
 footer {
-  background-color: #2A4494;
-  color: white;
+  font-weight: bold;
+  color: #656565;
   padding: 25px 0;
   text-align: center; }
   footer span.copyright {
@@ -287,12 +292,12 @@ ul.social-buttons {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-    color: white;
+    color: #656565;
     border-radius: 100%;
     background-color: transparent; 
  }
     ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-       color: #7abcbc;
+       color: rgb(225, 231, 244);
     }
 
 .text-primary {
@@ -310,6 +315,10 @@ ul.social-buttons {
 
 .btn-nav {
 	border-color: black;
+}
+
+.btn-nav:hover {
+  border-color: #565555;
 }
 
 .btn-primary {
